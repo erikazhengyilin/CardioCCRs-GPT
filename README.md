@@ -11,7 +11,7 @@ For diagnosis prediction, run
 ``` shell
 python main.py --model gpt_model_name --sample_mode sample_mode --sample_size
 ```  
-For example, to use the GPT-4o-mini model and sampling 5 random CCRs for few-shot learning,  
+For example, to use the GPT-4o-mini model and sample 5 random CCRs for few-shot learning,  
 ``` shell
 python main.py --model gpt-4o-mini --sample_mode random_k --sample_size 5
 ```  
